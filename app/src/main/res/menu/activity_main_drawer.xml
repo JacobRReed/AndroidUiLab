@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_text_view"
+        android:title="TextView Example"
+        android:icon="@drawable/ic_menu_textview"/>
+    <item
+        android:id="@+id/edit_text_view"
+        android:title="EditText Example"
+        android:icon="@drawable/ic_edit_text_view"
+        />
+
+    <item
+        android:id="@id/auto_complete_view"
+        android:title="AutoComplete Example"
+        android:icon="@drawable/ic_auto_complete"
+        />
+    <item
+        android:id="@id/spinner_view"
+        android:title="Spinner Example"
+        android:icon="@drawable/ic_spinner_view"
+        />
+
+    <item
+        android:id="@id/checkbox_radio_fragment"
+        android:title="CheckBoxRadio Example"
+        android:icon="@drawable/ic_checkbox" />
+</menu>
